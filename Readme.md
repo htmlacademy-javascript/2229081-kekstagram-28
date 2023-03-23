@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Arman Abetov](https://up.htmlacademy.ru/javascript/28/user/2229081).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Конотоп](https://htmlacademy.ru/profile/sineway).
 
 ---
 
