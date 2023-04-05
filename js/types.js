@@ -1,5 +1,5 @@
 /**
- * @typedef ImageState
+ * @typedef PictureState
  * @prop {number} id
  * @prop {string} url
  * @prop {string} description
