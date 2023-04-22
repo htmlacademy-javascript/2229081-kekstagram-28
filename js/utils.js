@@ -9,6 +9,7 @@ export const request = async (url, options) => {
   if (!response.ok) {
     throw new Error(`${response.status}. ${response.statusText}`);
   }
+
   return response.json();
 };
 
