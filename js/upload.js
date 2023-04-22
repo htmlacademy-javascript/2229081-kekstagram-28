@@ -120,7 +120,6 @@ addHashtagsValidator(
 addDescriptionValidator(
   `Длина описания не должна превышать ${DESCRIPTION_MAX_LENGTH} символов`,
   (description) => description.length <= DESCRIPTION_MAX_LENGTH
-  (description) => description.length <= 140
 );
 
 form.addEventListener('change', onFormChange);

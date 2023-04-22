@@ -64,6 +64,7 @@ const updatePreview = (data) => {
   preview.querySelector('.big-picture__img img').setAttribute('src', currentData.url);
   preview.querySelector('.social__caption').textContent = currentData.description;
   preview.querySelector('.likes-count').textContent = String(currentData.likes);
+
   preview.querySelector('.comments-count').textContent = String(currentData.commentsTotal);
   discussion.replaceChildren();
   moreButton.addEventListener('click', onMoreButtonClick);
